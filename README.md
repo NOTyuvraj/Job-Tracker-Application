@@ -1,6 +1,6 @@
 # AI Job Tracker Frontend 💼
 
-Frontend for an AI-powered job application tracking platform with Gmail synchronization, AI insights, and application workflow management.
+Frontend for an AI-powered job application tracking platform with Gmail synchronization and application workflow management.
 
 ---
 
@@ -19,7 +19,6 @@ Backend API: https://jtb-parser.onrender.com
 - 📧 Gmail Synchronization UI
 - 📊 Job Tracking Dashboard
 - 📌 Application Status Management
-- 🧠 AI-powered Insights
 - ⚡ Responsive Interface
 
 ---
