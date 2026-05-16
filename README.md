@@ -1,16 +1,99 @@
-# React + Vite
+# AI Job Tracker Frontend 💼
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Frontend for an AI-powered job application tracking platform with Gmail synchronization, AI insights, and application workflow management.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🌐 Live Demo
 
-## React Compiler
+Frontend: https://job-tracker-application-psi.vercel.app
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+Backend API: https://jtb-parser.onrender.com
 
-## Expanding the ESLint configuration
+---
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## 🚀 Features
+
+- 🔐 JWT Authentication
+- 🔑 Google OAuth Login
+- 📧 Gmail Synchronization UI
+- 📊 Job Tracking Dashboard
+- 📌 Application Status Management
+- 🧠 AI-powered Insights
+- ⚡ Responsive Interface
+
+---
+
+## 🛠️ Tech Stack
+
+- React.js
+- Vite
+- Axios
+- React Router
+
+---
+
+## 📂 Project Structure
+
+```bash
+Job-Tracker-Application/
+│
+├── public/
+├── src/
+│   ├── api/
+│   ├── components/
+│   ├── pages/
+│
+├── package.json
+└── README.md
+```
+
+---
+
+## ▶️ Installation
+
+```bash
+git clone https://github.com/NOTyuvraj/job-tracker-frontend.git
+
+cd Job-Tracker-Application
+
+npm install
+
+npm run dev
+```
+
+---
+
+## 🔗 Backend Integration
+
+The frontend communicates with backend APIs for:
+- authentication
+- Gmail synchronization
+- AI parsing workflows
+- job tracking
+- application status updates
+
+---
+
+## 🔐 Authentication
+
+Supports:
+- Email/password login
+- Google OAuth 2.0
+- JWT session handling
+
+---
+
+## 📌 Future Improvements
+
+- Analytics dashboard
+- Interview tracking
+- Resume management
+- Dark mode support
+- Mobile optimization
+
+---
+
+## 👨‍💻 Author
+
+Built by Yuvraj Chaudhary
